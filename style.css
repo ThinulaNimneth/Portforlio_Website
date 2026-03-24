@@ -338,3 +338,31 @@ img {
   display: inline-block;
   padding-bottom: 4px;
 }
+
+
+.skill-section h2 .cyan::after{
+  content: '';
+  position:absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: -8px;
+  width: 65%;
+  height: 3px;
+  background: var(--cyan);
+  border-radius: 2px;
+}
+
+
+.skill-grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.card-cyan, .card-dark {
+  border-radius: 20px;
+  padding: 30px 28px 34px;
+  transition:  transform .2s, box-shadow .25s;
+  position: relative;
+  overflow: hidden;
+}
