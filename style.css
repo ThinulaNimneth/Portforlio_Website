@@ -422,8 +422,22 @@ img {
 
 
 .card-icon-frontend img, .card-icon-backend img, .card-icon-tools img, .card-icon-design img {
-  
+
   width: 30px;
   height: 30px;
   object-fit: contain;
+}
+
+.card-cyan .card-title {
+  font-size: 26px;
+  font-weight: 800;
+  color: #fff;
+  margin-top: 14px;
+  margin-bottom: 22px;
+  letter-spacing:  -0.3px;
+}
+
+.card-dark .card-title{
+  font-size: 18px;
+  font-weight: 700;
 }
