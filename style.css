@@ -330,3 +330,11 @@ img {
   color: #ffffff ;
   letter-spacing: -0.5px;
 }
+
+
+.skill-section h2 .cyan{
+  color: var(--cyan);
+  position: relative;
+  display: inline-block;
+  padding-bottom: 4px;
+}
