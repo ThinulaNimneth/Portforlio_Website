@@ -312,13 +312,21 @@ img {
 
 
 
+/* skills */
 
 
+.skill-section{
+  width: 100%;
+  max-width: 860px;
+  margin: 0 auto;
+  padding: 80px 24px;
+}
 
-
-
-
-
-
-
-
+.skill-section h2{
+  text-align: center;
+  margin-bottom: 52px;
+  font-size: clamp(30px, 4vw, 44px);
+  font-weight: 800;
+  color: #ffffff ;
+  letter-spacing: -0.5px;
+}
