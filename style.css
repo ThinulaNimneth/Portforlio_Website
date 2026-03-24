@@ -671,6 +671,37 @@ img {
  }
 
 
+ .edu-section .heading{
+  text-align: center;
+  font-size: clamp(28px , 4vw, 42px);
+  font-weight: 800;
+  color: #ffffff;
+  letter-spacing: -0.5px;
+  margin-bottom: 60px;
+ }
+
+
+ .edu-section .heading .cyan {
+  color: var(--cyan);
+  position: relative;
+  display: inline-block;
+  padding-bottom: 2px;
+ }
+
+
+ .edu-section .heading .cyan::after{
+  content: '';
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: -10px;
+  width: 55%;
+  height: 3px;
+  background: var(--cyan);
+  border-radius: 2px;
+ }
+
+
 
 
 
