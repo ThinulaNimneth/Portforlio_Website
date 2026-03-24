@@ -441,3 +441,43 @@ img {
   font-size: 18px;
   font-weight: 700;
 }
+
+.card-dark .card-title .t-cyan  { 
+  color: var(--cyan);
+ }
+
+.card-dark .card-title .t-white {
+   color: #ffffff;
+   
+   }
+
+
+.pills{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+
+.card-cyan .pills {
+  justify-content: center;
+}
+
+.pill{
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  border-radius: 10px;
+  padding: 8px 16px;
+  font-size: 13px;
+  font-weight: 600;
+  cursor: default;
+  transition: transform .15s;
+}
+
+.pill:hover {
+  transform: scale(1.04);
+}
+
+
+
