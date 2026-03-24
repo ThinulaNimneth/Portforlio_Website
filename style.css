@@ -401,3 +401,29 @@ img {
   justify-content: center;
   flex-shrink: 0;
 }
+
+
+.card-icon-frontend{
+  background: #0d1836;
+}
+
+.card-icon-backend{
+  background:  #0d1836;
+}
+
+.card-icon-design{
+  background:  #1a0e05;
+}
+
+.card-icon-tools{
+  background: #111 ;
+  border: 1px solid  rgba(255,255,255,0.1);
+}
+
+
+.card-icon-frontend img, .card-icon-backend img, .card-icon-tools img, .card-icon-design img {
+  
+  width: 30px;
+  height: 30px;
+  object-fit: contain;
+}
