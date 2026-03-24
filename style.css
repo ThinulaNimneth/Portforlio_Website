@@ -711,6 +711,48 @@ img {
  }
 
 
+ .timeline-line{
+  grid-column: 2;
+  grid-row: 1/99;
+  background: linear-gradient(
+    to bottom, #0abde3 0%, #0abde3 85%, rgba(10,189,227,0.0) 100%
+  );
+
+  width: 2px;
+  justify-self: center;
+ }
+
+
+ .tl-left{
+  grid-column: 1;
+  padding: 32px 40px 32px 0;
+  display: flex;
+  justify-content: flex-end;
+ }
+
+
+ .tl-right{
+  grid-column: 3;
+  padding: 32px 0 32px 40px;
+  display: flex;
+  justify-content: flex-start;
+ }
+
+ .tl-spacer-left{
+  grid-column: 1;
+ }
+
+ .tl-spacer-right{
+  grid-column: 3;
+ }
+
+ .tl-spacer-right{
+  grid-column: 3;
+ }
+
+
+
+
 
 
 
