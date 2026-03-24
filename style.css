@@ -366,3 +366,13 @@ img {
   position: relative;
   overflow: hidden;
 }
+
+.card-cyan:hover , .card-dark:hover {
+  transform: translateY(-5px);
+}
+
+.card-cyan{
+  background:  var(--cyan);
+  box-shadow: 0 8px 32px rgb(0,0,0,0.35);
+}
+
