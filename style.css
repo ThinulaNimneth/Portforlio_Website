@@ -1012,3 +1012,9 @@ img {
   -webkit-backdrop-filter: blur(12px);
   transition: border-color .25s, box-shadow .25s;
 }
+
+
+.gallery-container:hover{
+  border-color: rgba(10, 189, 227, 0.20);
+  box-shadow: 0 0 40px rgba(10, 189, 227, 0.08);
+}
