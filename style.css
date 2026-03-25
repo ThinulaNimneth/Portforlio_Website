@@ -964,3 +964,22 @@ img {
 
 
 
+.gallery-section{
+  width: 100%;
+  max-width: 860px;
+  margin: 0 auto;
+  padding: 80px 24px;
+}
+
+
+.gallery-section .sec-heading{
+  text-align: center;
+  font-size: clamp(28px, 4vw, 42px);
+  font-weight: 800;
+  color: white;
+  letter-spacing: -0.5px;
+  margin-bottom: 56px;
+}
+
+
+
