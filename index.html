@@ -500,7 +500,19 @@
     </h2>
 
 
-    
+    <form class="contact-form" onsubmit="handleSend(event)">
+
+        <input class="form-input" type="text" placeholder="Name" required />
+
+        <input class="form-input" type="email" placeholder="Email" required />
+
+    <textarea class="form-textarea" placeholder="Message" required> </textarea>
+
+      <button type="submit" class="btn-send" id="send-btn">
+           Send Message
+      </button>
+
+    </form>
 
 
 </section>
