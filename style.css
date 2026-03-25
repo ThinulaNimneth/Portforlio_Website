@@ -773,6 +773,26 @@ img {
 
 }
 
+.card-title{
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--cyan);
+  margin-bottom: 6px;
+  letter-spacing: 0.02em;
+}
+
+
+.card-date{
+  font-size: 12px;
+  font-weight: 400;
+   color: white;
+   margin-bottom: 12px;
+   letter-spacing: 0.02em;
+}
+
+
+
+
 
 
 
