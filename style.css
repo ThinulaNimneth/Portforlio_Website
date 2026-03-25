@@ -1102,37 +1102,76 @@ img {
 
 
 
-/* contacts developing */
+/* contacts dev */
 
 
-.contacts{
-  display: flex;
-  flex-direction: column;
-  gap: 15px;
+
+.contact-section {
+  width: 100%;
+  max-width: 520px;
+  margin: 0 auto;
+  padding: 80px 24px;
 }
 
 
-.form-input{
+
+.sec-heading {
+  text-align: center;
+  font-size: clamp(28px, 5vw, 42px);
+  font-weight: 800;
+  color: #ffffff;
+  margin-bottom: 50px;
+}
+
+
+.cyan {
+  color: #0abde3;
+  position: relative;
+  display: inline-block;
+}
+
+
+
+.cyan::after {
+  content: '';
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: -10px;
+  width: 70%;
+  height: 3px;
+  background: #0abde3;
+  border-radius: 2px;
+}
+
+
+
+
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+
+
+.form-input {
   width: 100%;
   height: 52px;
   background: #1e2433;
   border: 1px solid rgba(255,255,255,0.06);
   border-radius: 50px;
   padding: 0 22px;
-  font-family: 'Poppins', sans-serif;
   font-size: 14px;
-  font-weight: 400;
-  color: white;
+  color: #ffffff;
   outline: none;
-  transition: border-color .2s, background .2s, box-shadow .2s;
-
+  transition: 0.2s;
 }
 
 
-
-.form-input::placeholder{
+.form-input::placeholder {
   color: #6b7280;
-  font-weight: 400 ;
 }
 
 
@@ -1143,28 +1182,26 @@ img {
 }
 
 
-.form-textarea{
+
+.form-textarea {
   width: 100%;
   min-height: 150px;
-  background:  #1e2433;
+  background: #1e2433;
   border: 1px solid rgba(255,255,255,0.06);
-  border-radius: 15px;
-  padding:  15px 22px;
-  font-family: 'Poppins', sans-serif;
+  border-radius: 16px;
+  padding: 16px 22px;
   font-size: 14px;
-  font-weight: 400;
-  color: white;
+  color:white;
   outline: none;
   resize: vertical;
-  transition: border-color .2s, background .2s, box-shadow .2s;
-
+  transition: 0.2s;
 }
 
 
 .form-textarea::placeholder {
   color: #6b7280;
-  font-weight: 400;
 }
+
 
 
 .form-textarea:focus {
@@ -1174,37 +1211,40 @@ img {
 }
 
 
-.btn-send{
+
+
+.btn-send {
   width: 100%;
   height: 52px;
   background: #0abde3;
   border: none;
   border-radius: 50px;
-  font-family: 'Poppins', sans-serif;
   font-size: 15px;
   font-weight: 600;
   color: white;
-  letter-spacing: 0.02 em;
   cursor: pointer;
-  transition: background .2s, transform .15s, box-shadow .2s;
-  margin-top: 4px;
+  transition: 0.2s;
+
 }
+
 
 
 .btn-send:hover {
   background: #09a9cc;
   transform: translateY(-2px);
   box-shadow: 0 10px 30px rgba(10,189,227,0.35);
+
 }
+
 
 .btn-send:active {
   transform: translateY(0);
   box-shadow: none;
 }
 
+
+
 .btn-send.sent {
   background: #0a8a6e;
-  cursor: default;
-  transform: none;
-  box-shadow: none;
+
 }
