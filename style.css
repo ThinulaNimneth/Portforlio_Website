@@ -874,6 +874,25 @@ img {
   align-items: stretch;
 }
 
+.hobby-card{
+  background:  rgba(22, 28, 48, 0.85) ;
+  border: 1px solid rgba(255, 255, 255, 0.07);
+  border-radius: 18px;
+  padding: 26px 24px 30px;
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  transition: border-color .25s, transform .2s, box-shadow .25s;
+  display: flex;
+  flex-direction: column;
+
+}
+
+
+.hobby-card:hover{
+  border-color: rgba(10, 189, 227, 0.3);
+  transform: translateY(-5px);
+  box-shadow: 0 16px 40px rgba(0, 0, 0, 0.4);
+}
 
 
 
