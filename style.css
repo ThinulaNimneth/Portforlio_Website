@@ -791,6 +791,41 @@ img {
 }
 
 
+.card-desc{
+  font-size: 13px;
+  font-weight: 600;
+  color: #d8dce8;
+  line-height: 1.7;
+}
+
+@media(max-width:600px){
+  .timeline{
+    grid-template-columns: 28px 1fr;
+  }
+
+  .timeline-line{
+    grid-column: 1;
+    grid-row: 1/99;
+  }
+
+  .tl-left , .tl-right {
+    grid-column: 2;
+    padding: 20px 0 20px 20px;
+    justify-content: flex-start;
+  }
+
+  .tl-spacer-left , .tl-spacer-right , .tl-spacer-right{
+    display: none;
+  }
+
+  .edu-card{
+    max-width: 100%;
+  }
+}
+
+
+
+
 
 
 
