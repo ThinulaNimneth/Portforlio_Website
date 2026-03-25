@@ -1189,3 +1189,22 @@ img {
   transition: background .2s, transform .15s, box-shadow .2s;
   margin-top: 4px;
 }
+
+
+.btn-send:hover {
+  background: #09a9cc;
+  transform: translateY(-2px);
+  box-shadow: 0 10px 30px rgba(10,189,227,0.35);
+}
+
+.btn-send:active {
+  transform: translateY(0);
+  box-shadow: none;
+}
+
+.btn-send.sent {
+  background: #0a8a6e;
+  cursor: default;
+  transform: none;
+  box-shadow: none;
+}
