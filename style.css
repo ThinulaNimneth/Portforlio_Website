@@ -1082,3 +1082,14 @@ img {
 .gal-cell:hover img {
   transform: scale(1.08);
 }
+
+.lightbox{
+  display: none;
+  inset: 0;
+  position: fixed;
+  background: rgba(0, 0, 0, 0.92);
+  z-index: 1000;
+  align-items: center;
+  justify-content: center;
+  padding: 25px;
+}
