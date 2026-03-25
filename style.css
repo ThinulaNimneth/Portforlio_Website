@@ -836,8 +836,22 @@ img {
   padding: 80px 24px;
 }
 
+.hobbies-section .heading {
+  text-align: center;
+  font-size: clamp(28px, 4vw , 42px);
+  font-weight: 800;
+  color:  white;
+  letter-spacing: -0.5;
+  margin-bottom: 56px;
+}
 
 
+.hobbies-section .heading .cyan{
+  color: var(--cyan);
+  position: relative;
+  display: inline-block;
+  padding-bottom: 2px;
+}
 
 
 
