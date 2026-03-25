@@ -1064,3 +1064,21 @@ img {
 }
 
 
+.gal-cell:hover::before{
+  opacity: 1;
+  animation: neon-border 1.5s linear infinite;
+  border-image: linear-gradient(45deg, var(--cyan), #00f0ff, var(--cyan)) 1;
+}
+
+
+.gal-cell img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.5s ease;
+}
+
+.gal-cell:hover img {
+  transform: scale(1.08);
+}
