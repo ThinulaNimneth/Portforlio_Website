@@ -1018,3 +1018,12 @@ img {
   border-color: rgba(10, 189, 227, 0.20);
   box-shadow: 0 0 40px rgba(10, 189, 227, 0.08);
 }
+
+
+.gallery-grid{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 14px;
+}
+
+
