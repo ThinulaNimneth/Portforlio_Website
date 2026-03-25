@@ -982,4 +982,9 @@ img {
 }
 
 
-
+.gallery-section .sec-heading .cyan{
+  color: var(--cyan);
+  position: relative;
+  display: inline-block;
+  padding-bottom: 2px;
+}
