@@ -826,27 +826,32 @@ img {
 
 
 
+
 /* hobbies dev */
 
 
-.hobbies-section{
+
+.hobbies-section {
   width: 100%;
-  max-width: 860px;
+  max-width: 950px;
   margin: 0 auto;
   padding: 80px 24px;
 }
 
-.hobbies-section .heading {
+
+
+
+.hobbies-section .sec-heading {
   text-align: center;
-  font-size: clamp(28px, 4vw , 42px);
+  font-size: clamp(28px, 4vw, 42px);
   font-weight: 800;
-  color:  white;
-  letter-spacing: -0.5;
+  color: white;
+  letter-spacing: -0.5px; 
   margin-bottom: 56px;
 }
 
 
-.hobbies-section .heading .cyan{
+.hobbies-section .sec-heading .cyan {
   color: var(--cyan);
   position: relative;
   display: inline-block;
@@ -854,7 +859,7 @@ img {
 }
 
 
-.hobbies-section .heading .cyan::after {
+.hobbies-section .sec-heading .cyan::after {
   content: '';
   position: absolute;
   left: 50%;
@@ -864,18 +869,20 @@ img {
   height: 3px;
   background: var(--cyan);
   border-radius: 2px;
-
 }
 
-.hobby-grid{
+
+
+.hobbies-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 20px;
   align-items: stretch;
 }
 
-.hobby-card{
-  background:  rgba(22, 28, 48, 0.85) ;
+
+.hobby-card {
+  background: rgba(22, 28, 48, 0.85);
   border: 1px solid rgba(255, 255, 255, 0.07);
   border-radius: 18px;
   padding: 26px 24px 30px;
@@ -884,19 +891,17 @@ img {
   transition: border-color .25s, transform .2s, box-shadow .25s;
   display: flex;
   flex-direction: column;
-
 }
 
 
-.hobby-card:hover{
+.hobby-card:hover {
   border-color: rgba(10, 189, 227, 0.3);
   transform: translateY(-5px);
   box-shadow: 0 16px 40px rgba(0, 0, 0, 0.4);
 }
 
 
-
-.hobby-card  .card-header{
+.hobby-card .card-header {
   display: flex;
   align-items: center;
   gap: 14px;
@@ -904,7 +909,7 @@ img {
 }
 
 
-.hobby-card .icon-circle{
+.hobby-card .icon-circle {
   width: 52px;
   height: 52px;
   border-radius: 50%;
@@ -919,11 +924,34 @@ img {
 
 
 
+.hobby-card .card-title {
+  font-size: 15px;
+  font-weight: 700;
+  color: var(--cyan);
+  line-height: 1.3;
+  letter-spacing: 0.01em;
+}
+
+
+.hobby-card .card-desc {
+  font-size: 13px;
+  font-weight: 600;
+  color: #d8dce8;
+  line-height: 1.7;
+  flex: 1;
+}
 
 
 
+@media (max-width: 620px) {
+  .hobbies-grid {
+    grid-template-columns: 1fr;
+  }
+}
 
 
-
-
-
+@media (min-width: 621px) and (max-width: 860px) {
+  .hobbies-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
