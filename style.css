@@ -988,3 +988,27 @@ img {
   display: inline-block;
   padding-bottom: 2px;
 }
+
+.gallery-section .sec-heading .cyan::after{
+  content: '';
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: -10px;
+  width: 65%;
+  height: 3px;
+  background: var(--cyan);
+  border-radius: 2px;
+}
+
+
+
+.gallery-container{
+  background: rgba(18, 23, 40, 0.90);
+  border: 1px solid rgba(255, 255, 255, 0.07);
+  border-radius: 22px;
+  padding: 22px;
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  transition: border-color .25s, box-shadow .25s;
+}
