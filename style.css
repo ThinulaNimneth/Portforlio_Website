@@ -1105,9 +1105,28 @@ img {
 /* contacts developing */
 
 
-.contact-form{
+.contacts{
   display: flex;
   flex-direction: column;
   gap: 15px;
 }
+
+
+.form-input{
+  width: 100%;
+  height: 52px;
+  background: #1e2433;
+  border: 1px solid rgba(255,255,255,0.06);
+  border-radius: 50px;
+  padding: 0 22px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  color: white;
+  outline: none;
+  transition: border-color .2s, background .2s, box-shadow .2s;
+
+}
+
+
 
