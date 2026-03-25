@@ -854,6 +854,27 @@ img {
 }
 
 
+.hobbies-section .heading .cyan::after {
+  content: '';
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: -10px;
+  width: 65%;
+  height: 3px;
+  background: var(--cyan);
+  border-radius: 2px;
+
+}
+
+.hobby-grid{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  align-items: stretch;
+}
+
+
 
 
 
