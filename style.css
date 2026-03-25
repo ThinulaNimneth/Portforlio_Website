@@ -1027,3 +1027,15 @@ img {
 }
 
 
+.gal-cell{
+  aspect-ratio: 1/1;
+  border-radius: 14px;
+  overflow: hidden;
+  position: relative;
+  background: #111520;
+  cursor: pointer;
+  border: 1px solid rgba(255, 255, 255, 0.05) ;
+  transition: all 0.3 ease;
+}
+
+
