@@ -1298,6 +1298,12 @@ img {
 
 
 
+.footer-logo{
+  display: flex;
+  align-items: center;
+  gap: 18px;
+}
+
 
 
 
