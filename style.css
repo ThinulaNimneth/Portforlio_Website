@@ -1250,6 +1250,32 @@ img {
 }
 
 
+/* footer dev */
+
+
+footer{
+  background: #0d1020;
+  border-top: 1px solid  rgba(255, 255, 255, 0.07);
+  padding: 22px 45px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-between;
+  gap: 20px;
+  flex-wrap: wrap;
+
+}
+
+
+
+
+
+
+
+
+
+
+
 
 /* scroll animation dev */
 
