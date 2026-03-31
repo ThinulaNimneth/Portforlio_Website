@@ -1773,6 +1773,8 @@ img {
 
 .mobile-menu{
   display: none;
+  flex-direction: column;
+  padding: 10px 20px 20px;
 }
 
 
