@@ -1755,6 +1755,15 @@ img {
 }
 
 
+/* when open animation in x */
+
+.burger.open span:nth-child(1){
+  transform: translateY(8px) rotate(45deg);
+}
+
+
+
+
 
 
 
