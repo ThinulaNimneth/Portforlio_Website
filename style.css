@@ -1727,7 +1727,17 @@ img {
 
 
 
-/* Burger button */
+/* Burger button menu dev */
+
+.burger{
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+}
+
+
+
+
 
 
 
