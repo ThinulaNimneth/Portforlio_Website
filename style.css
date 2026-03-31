@@ -1769,6 +1769,12 @@ img {
   transform: translateY(8px) rotate(-45deg);
 }
 
+/* drop menu */
+
+.mobile-menu{
+  display: none;
+}
+
 
 
 
