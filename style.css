@@ -1798,7 +1798,9 @@ img {
   .burger{
     display: flex;
   }
-  
+  .mobile-menu.open{
+    display: flex;
+  }
 }
 
 
