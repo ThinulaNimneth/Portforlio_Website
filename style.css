@@ -20,7 +20,7 @@ html {
   --cyan-dark: #0099c7;
   --white:     #ffffff;
   --text:      #b8bcc8;
-  --font:      'Segoe UI', system-ui, sans-serif;
+  --font:      'Baloo Bhai 2', 'Segoe UI', system-ui, sans-serif;
 }
 
 
@@ -407,6 +407,8 @@ img {
 
 
 
+
+
 /* skills develop */
 
 
@@ -642,6 +644,8 @@ img {
 @media (max-width: 620px) {
   .skill-grid { grid-template-columns: 1fr; }
 }
+
+
 
 
 
