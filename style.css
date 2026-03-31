@@ -1735,6 +1735,8 @@ img {
   justify-content: center;
   width: 36px;
   height: 36px;
+  gap: 5px;
+  background: transparent;
 
 }
 
