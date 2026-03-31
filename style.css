@@ -146,6 +146,7 @@ img {
 .hero-left {
   flex: 1;
   max-width: 580px;
+ 
 }
 
 
@@ -291,6 +292,8 @@ img {
 
 
 .hero-photo {
+
+
   width: clamp(300px, 30vw, 460px);
   position: relative;
   z-index: 1;
@@ -395,6 +398,11 @@ img {
 
   }
 }
+
+
+
+
+
 
 
 
@@ -662,7 +670,7 @@ img {
   margin-bottom: 52px;
   font-size: clamp(30px, 4.5vw, 44px);
   font-weight: 800;
-  color: #ffffff;
+  color: white;
   letter-spacing: -0.5px;
 }
 
@@ -1402,7 +1410,7 @@ img {
 
 
 
-.gal-cell:hover::after {
+.gal-cell:hover {
    opacity: 1; 
   }
 
@@ -1714,6 +1722,12 @@ img {
 }
 
 
+
+
+
+
+
+/* Burger button */
 
 
 
