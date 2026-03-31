@@ -11,6 +11,7 @@ burger.addEventListener('click' , () => {
 //when link click menu closed
 mobileMenu.querySelectorAll('a').forEach(link =>{
     link.addEventListener('click', () => {
-        
-    })
-})
+        burger.classList.remove('open');
+        mobileMenu.classList.remove('open');
+    });
+});
