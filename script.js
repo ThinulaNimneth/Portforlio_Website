@@ -15,3 +15,5 @@ mobileMenu.querySelectorAll('a').forEach(link =>{
         mobileMenu.classList.remove('open');
     });
 });
+
+
