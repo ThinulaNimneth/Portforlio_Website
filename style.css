@@ -1775,6 +1775,8 @@ img {
   display: none;
   flex-direction: column;
   padding: 10px 20px 20px;
+  gap: 2px;
+  border-top: 1px solid rgba(255, 255, 255, 0.06);
 }
 
 
