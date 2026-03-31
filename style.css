@@ -1737,6 +1737,8 @@ img {
   height: 36px;
   gap: 5px;
   background: transparent;
+  border: none;
+  cursor: pointer;
 
 }
 
