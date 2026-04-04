@@ -1949,7 +1949,13 @@ img {
   align-items: flex-end;
   justify-content: space-between;
   gap: 60px;
+  flex-wrap: wrap;
 
+}
+
+.services-txt{
+  flex: 1;
+  min-width: 300px;
 }
 
 
