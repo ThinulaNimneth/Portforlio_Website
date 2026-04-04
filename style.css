@@ -1826,6 +1826,14 @@ img {
 }
 
 
+.services-subtitles{
+  font-size: 15px;
+  color: var(--cyan);
+  letter-spacing: 5px;
+  margin-bottom: 14px;
+}
+
+
 
 
 /* scroll animaition dev */
