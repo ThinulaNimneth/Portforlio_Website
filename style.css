@@ -1927,7 +1927,7 @@ img {
 
 
 .back_btn {
-  position: fixed;
+  position: absolute;
   top: 25px;
   left: 28px;
   z-index: 1000;
