@@ -1960,6 +1960,8 @@ img {
 
 
 .services-title{
+  font-family: var(--font);
+  font-size:clamp(4.5rem, 8vw, 6.8rem) ;
   
 }
 
