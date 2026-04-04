@@ -1998,6 +1998,9 @@ img {
   border-radius: 100px;
   text-decoration: none;
   display: inline-flex;
+  align-items: center;
+  gap: 15px;
+  white-space: nowrap;
 
 
 }
