@@ -1928,4 +1928,17 @@ img {
 
 
 
+/* services */
+
+
+.services-section_web{
+
+  padding: 140px 5% 160px;
+  display: flex;
+  align-items: center;
+}
+
+
+
+
 /* scroll animaition dev */
