@@ -1936,6 +1936,15 @@ img {
   padding: 140px 5% 160px;
   display: flex;
   align-items: center;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+}
+
+
+.services-wrapper{
+  max-width: 1400px;
+  
 }
 
 
