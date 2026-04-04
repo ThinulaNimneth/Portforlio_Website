@@ -1826,19 +1826,21 @@ img {
 }
 
 
-.services-subtitles{
+.services-subtitle {
   font-size: 15px;
   color: var(--cyan);
   letter-spacing: 5px;
   margin-bottom: 14px;
 }
 
+
 .services-heading{
-  font-size: calc(32px,4.5vw, 45px);
+  font-size: clamp(32px, 4.5vw, 45px);
   font-weight: 800;
   color: white;
   margin-bottom: 60px;
 }
+
 
 
 .services-grid{
