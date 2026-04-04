@@ -8,7 +8,7 @@ burger.addEventListener('click' , () => {
     mobileMenu.classList.toggle('open')
 });
 
-//when link click menu closed
+// link click menu closed
 mobileMenu.querySelectorAll('a').forEach(link =>{
     link.addEventListener('click', () => {
         burger.classList.remove('open');
