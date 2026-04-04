@@ -1848,4 +1848,11 @@ img {
 }
 
 
+.services-card{
+  background:  rgba(18, 23, 40, 0.90);
+  border: 1px solid  rgba(255,255,255,0.07);
+ 
+}
+
+
 /* scroll animaition dev */
