@@ -1971,7 +1971,10 @@ img {
 
 
 .services-highlights{
-  
+  background: linear-gradient(90deg, #00d4ff, var(--cyan));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 800;
 }
 
 
