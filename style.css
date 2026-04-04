@@ -1978,6 +1978,11 @@ img {
 }
 
 
+.services-subtitle_web{
+  font-family: var(--font);
+}
+
+
 
 
 /* scroll animaition dev */
