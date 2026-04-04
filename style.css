@@ -1833,6 +1833,13 @@ img {
   margin-bottom: 14px;
 }
 
+.services-heading{
+  font-size: calc(32px,4.5vw, 45px);
+  font-weight: 800;
+  color: white;
+  margin-bottom: 60px;
+}
+
 
 
 
