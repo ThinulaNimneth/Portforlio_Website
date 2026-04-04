@@ -1966,6 +1966,12 @@ img {
   line-height: 1;
   letter-spacing: -6px;
   color: var(--white);
+  margin: 0 0 24px 0;
+}
+
+
+.services-highlights{
+  
 }
 
 
