@@ -1877,6 +1877,13 @@ img {
   font-size: 20px;
   font-weight: 800;
   color: var(--cyan);
+  margin-bottom: 14px;
+
+}
+
+
+.services-desc{
+  font-size: 13px;
 
 }
 
