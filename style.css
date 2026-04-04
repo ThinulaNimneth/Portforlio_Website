@@ -1856,5 +1856,9 @@ img {
   backdrop-filter: blur(10px);
 }
 
+.services-card:hover{
+  transform: translateY(-8px);
+}
+
 
 /* scroll animaition dev */
