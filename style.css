@@ -1858,7 +1858,13 @@ img {
 
 .services-card:hover{
   transform: translateY(-8px);
+  border-color: rgba(10,189,227,0.45);
+
+  box-shadow:
+    0 0 30px rgba(10,189,227,0.25),
+     0 0 60px rgba(10,189,227,0.08);
 }
+
 
 
 /* scroll animaition dev */
