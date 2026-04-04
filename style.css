@@ -1988,6 +1988,11 @@ img {
 }
 
 
+.services-btn-web{
+  background: linear-gradient(90deg, var(--cyan), #00d4ff);
+  color: white
+}
+
 
 
 /* scroll animaition dev */
