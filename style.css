@@ -1990,7 +1990,12 @@ img {
 
 .services-btn-web{
   background: linear-gradient(90deg, var(--cyan), #00d4ff);
-  color: white
+  color: white;
+  font-family: var(--font);
+  font-size: 20px;
+  font-weight: 700;
+
+
 }
 
 
