@@ -1942,7 +1942,7 @@ img {
 }
 
 
-.services-wrapper{
+.services-wrapper_web{
   max-width: 1400px;
   width: 100%;
   display: flex;
@@ -1953,16 +1953,19 @@ img {
 
 }
 
-.services-txt{
+.services-txt_web{
   flex: 1;
   min-width: 300px;
 }
 
 
-.services-title{
+.services-title_web{
   font-family: var(--font);
   font-size:clamp(4.5rem, 8vw, 6.8rem) ;
-  
+  font-weight: 800;
+  line-height: 1;
+  letter-spacing: -6px;
+  color: var(--white);
 }
 
 
