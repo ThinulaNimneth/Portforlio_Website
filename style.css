@@ -1925,7 +1925,8 @@ img {
 /* back button */
 
 
-.back_btn{
+
+.back_btn {
   position: fixed;
   top: 25px;
   left: 28px;
@@ -1935,10 +1936,27 @@ img {
   overflow: hidden;
   display: flex;
   align-items: center;
-  justify-items: center;
-
+  justify-content: center;      
+  opacity: 0.90;
+  transition: transform 0.25s ease, box-shadow 0.25s ease, opacity 0.25s ease;
+  border-radius: 10px;
 }
 
+.back_btn img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  border-radius: 14px;
+}
+
+.back_btn:hover {                
+  transform: translateX(-5px) scale(1.08);
+  opacity: 1;
+  box-shadow:
+    0 0 18px rgba(10, 189, 227, 0.55),
+    0 0 40px rgba(10, 189, 227, 0.25);
+}
 
 
 
