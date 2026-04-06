@@ -2010,6 +2010,7 @@ img {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-weight: 800;
+  letter-spacing: -2px;
 }
 
 
@@ -2058,6 +2059,12 @@ img {
 }
 
 
+
+
+
+
+
+
 @media (max-width: 768px) {
     .services-section_web {
         padding: 100px 5% 120px;
@@ -2082,3 +2089,57 @@ img {
 
 
 /* scroll animaition dev */
+
+
+.autoShow {
+  animation: text-appear both;
+  animation-timeline: view();
+  animation-range: entry 20% cover 100vh;
+}
+
+@keyframes text-appear {
+  from {
+    opacity: 0;
+    transform: translateY(100px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0) ;
+  }
+}
+
+
+
+
+.fadeUP {
+  animation: fadeUP 0.8s ease both;
+  animation-timeline: view();
+}
+
+
+
+.timeline .edu-card:nth-of-type(1) {
+  animation-range: entry 20% cover 40%;
+}
+
+.timeline .edu-card:nth-of-type(2) {
+  animation-range: entry 40% cover 60%;
+}
+
+.timeline .edu-card:nth-of-type(3) {
+  animation-range: entry 60% cover 80%;
+}
+
+@keyframes fadeUP {
+
+  from {
+    opacity: 0;
+    transform: translateY(10px) scale(0.5);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+
+}
