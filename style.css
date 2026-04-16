@@ -2163,6 +2163,21 @@ img {
   --card-bg: rgba(14, 19, 36, 0.9);
 }
 
+
+.video-link {
+  color: #0abde3;             
+  text-decoration: none;    
+  transition: color 0.3s ease;
+}
+
+.video-link:hover {
+  color: lightblue;        
+}
+
+
+
+
+
 .details-body {
   background-color: var(--bg-dark);
   font-family: 'Inter', sans-serif;
