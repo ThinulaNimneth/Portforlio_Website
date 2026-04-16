@@ -2143,3 +2143,152 @@ img {
   }
 
 }
+
+
+
+
+
+
+
+
+
+
+/* Assignment View Details Section Develop */
+
+
+
+:root {
+  --cyan: #0abde3;
+  --bg-dark: #0a0d19;
+  --card-bg: rgba(14, 19, 36, 0.9);
+}
+
+.details-body {
+  background-color: var(--bg-dark);
+  font-family: 'Inter', sans-serif;
+  color: white;
+  margin: 0;
+}
+
+.details-container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 60px 24px;
+}
+
+.back-link {
+  color: var(--cyan);
+  text-decoration: none;
+  font-size: 14px;
+  margin-bottom: 20px;
+  display: inline-block;
+  transition: opacity 0.3s;
+}
+
+.back-link:hover {
+  opacity: 0.7;
+}
+
+.details-card {
+  background: var(--card-bg);
+  border: 1px solid rgba(255, 255, 255, 0.07);
+  border-radius: 24px;
+  overflow: hidden;
+  backdrop-filter: blur(10px);
+}
+
+
+.image-container {
+  width: 100%;
+  height: 400px; 
+  background: #000;
+  overflow: hidden;
+}
+
+.image-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.5s ease;
+}
+
+
+.details-card:hover .image-container img {
+  transform: scale(1.05);
+}
+
+.content-wrapper {
+  padding: 40px;
+}
+
+.sub-heading {
+  font-size: 24px;
+  margin-bottom: 15px;
+  color: white;
+}
+
+.task-title {
+  margin-top: 30px;
+  font-size: 18px;
+  color: var(--cyan);
+}
+
+.task-list {
+  list-style: none;
+  padding: 0;
+  margin: 20px 0;
+}
+
+.task-list li {
+  font-size: 14px;
+  color: #8a90a0;
+  line-height: 2;
+  margin-bottom: 10px;
+  display: flex;
+  gap: 15px;
+}
+
+.task-list li span {
+  color: var(--cyan);
+  font-weight: bold;
+}
+
+.action-links {
+  display: flex;
+  gap: 15px;
+  margin-top: 30px;
+}
+
+.assignment-btn {
+  display: inline-flex;
+  align-items: center;
+  padding: 10px 22px;
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--cyan);
+  border: 1.5px solid var(--cyan);
+  border-radius: 50px;
+  text-decoration: none;
+  transition: all 0.2s;
+}
+
+.assignment-btn:hover {
+  background: var(--cyan);
+  color: white;
+  box-shadow: 0 8px 24px rgba(10, 189, 227, 0.28);
+}
+
+@media (max-width: 600px) {
+  .action-links {
+    flex-direction: column;
+  }
+  
+  .content-wrapper {
+    padding: 20px;
+  }
+
+  .image-container {
+    height: 250px;
+  }
+}
